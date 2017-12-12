@@ -35,6 +35,7 @@ public class Choice {
                     break;
                 default:
                     System.out.print("Error+");
+                    scanner.close();
             }
         }
         else{
@@ -59,6 +60,7 @@ public class Choice {
             }
             System.out.println("The longest word is "+"'"+words[b]+"'");
         }
-        }
+        scanner.close();
     }
+}
 
