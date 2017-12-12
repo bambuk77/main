@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import class.Calc;
+import class.Array;
 public class Choice {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -6,7 +8,7 @@ public class Choice {
         if (a==1){
 
             Calc cal = new Calc();
-            Calc.start();
+            
         }
 
         else{
